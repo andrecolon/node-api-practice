@@ -45,11 +45,11 @@ The description of the structure and extra information about each _resource_ sto
 
 | Field       | Data Type | Metadata                                                                                         |
 | ----------- | --------- | ------------------------------------------------------------------------------------------------ |
-| id          | number    | no need to provide it when creating a character, the database will automatically generate it     |
-| show_id     | number    | required, must be the id of an existing show   .                                                 |
+| id          | number    | no need to provide it when creating a character, the database will automatically generate it.    |
+| show_id     | number    | required, must be the id of an existing show.                                                    |
 | name        | string    | up to 128 characters long, required.                                                             |
 | description | string    | no size limit, required.                                                                         |
-| like        | boolean   | used to show if the character is someone you like, not requred                                   |
+| like        | boolean   | used to show if the character is someone you like, not required.                                 |
 
 ### Database Persistence Helpers
 
