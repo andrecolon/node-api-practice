@@ -33,7 +33,7 @@ function insert(character) {
     return DB('characters')
         .insert(character)
         .then(([id]) => this.get(id));
-};
+}
 
 function update(id, changes) {
     return DB("characters")
